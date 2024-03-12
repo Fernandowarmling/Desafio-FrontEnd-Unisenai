@@ -1,0 +1,75 @@
+html{
+  height: 100VH;
+  width: 100vw;
+
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;       
+}
+header{
+    height: 10%;
+    background-color: darkblue;
+}
+nav{
+    height: 15%;
+    background-color: darkblue;
+}
+section{
+    background-color: darkblue;
+    clear: both;
+    height: 70%;
+    width: 100%;
+}
+footer{
+    height: 5%;
+    background-color: darkblue;
+}
+
+.container-flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 33.33%;
+    width: 33.33%;
+}
+
+.contador{    
+    height: 80%;
+    width: 100%;
+}
+
+.titulo{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    color: blanchedalmond;
+    
+}
+
+.images{
+    height: 100%;
+    width: 100%;
+
+}
+
+.images-reverse{
+    height: 100%;
+    width: 100%;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
