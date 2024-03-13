@@ -1,34 +1,39 @@
-html{
-  height: 100VH;
-  width: 100vw;
+html {
+    height: 100VH;
+    width: 100vw;
 
 }
+
 body {
     height: 100%;
     width: 100%;
     margin: 0%;
-    padding: 0%;       
+    padding: 0%;
 }
-header{
+
+header {
     height: 10%;
     background-color: darkblue;
 }
-nav{
+
+nav {
     height: 15%;
     background-color: darkblue;
 }
-section{
+
+section {
     background-color: darkblue;
     clear: both;
     height: 70%;
     width: 100%;
 }
-footer{
+
+footer {
     height: 5%;
     background-color: darkblue;
 }
 
-.container-flex{
+.container-flex {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -36,31 +41,47 @@ footer{
     width: 100%;
 }
 
-.container{
+.container {
     height: 33.33%;
     width: 33.33%;
 }
 
-.contador{    
+.contador {
     height: 80%;
     width: 100%;
 }
 
-.titulo{
+.contagem {
+    height: 100%;
+    width: 100%;
+}
+
+p{ 
+    align-items: last baseline;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 24px;
+}
+.titulo {
     height: 20%;
     width: 100%;
     text-align: center;
     color: blanchedalmond;
-    
+    font-size: 24px;
+
 }
 
-.images{
+.images {
     height: 100%;
     width: 100%;
 
 }
 
-.images-reverse{
+.images-reverse {
     height: 100%;
     width: 100%;
     -moz-transform: scaleX(-1);
@@ -69,7 +90,8 @@ footer{
     transform: scaleX(-1);
 }
 
-img{
+img {
     height: 100%;
     width: 100%;
 }
+
