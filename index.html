@@ -5,12 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Contador Incremental de Animais Batidos</title>
+    <title>Contador Incremental de Animais Abatidos</title>
 </head>
 
-<body onload="progressivo()">
+<body onload="progressivo()" id="body">
     <header></header>
-    <nav></nav>
+    <nav>
+        <div class="container-flex-nav">
+            <div class="container-nav"></div>
+            <div class="container-nav"></div>
+            <div class="container-nav"><button onclick="trocaback()" id="troca">Troca BackGroud</button></div>
+        </div>
+
+    </nav>
     <section>
         <div class="container-flex">
             <div class="container">
@@ -23,7 +30,7 @@
                     <div class="contagem" id="cont">
                         <p id="progressivo"></p>
                     </div>
-                    <div class="titulo">2023</div>
+                    <div class="titulo">Cabeças de gado abatidas</div>
                 </div>
             </div>
             <div class="container">
